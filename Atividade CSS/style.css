@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-shadow: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: linear-gradient( #233a6d, rgb(77, 77, 77));
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.inicio{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+#pagina, #segunda-parte, #terceira-parte{
+    padding: 30px;
+}
+a{
+    text-decoration: none;
+}
+.primeira{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+li{
+    display: inline-block;
+    margin-right: 50px;
+}
+p{
+    padding-left: 20px;
+}
+blockquote{
+    padding-left: 20px;
+}
+#pioneiros, #bugs, #internet, #linguagens, #nomes, #acidentes, #dinheiro, #aleatorio, 
+#easter-eggs, #bugs-absurdos, #comandos-secretos{
+    margin: 25px;
+}
+article{
+    margin: 10px;
+}
+aside{
+    padding-left: 15px;
+}
+.internet-lista{
+    display: flex;
+    padding-left: 20px;
+    margin: 5px;
+}
+code{
+    padding-left: 20px;
+}
+table{
+    margin-left: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#linha-do-tempo, .linha-do-tempo{
+    padding: 20px;
+    display: block;
+}
+.h2-linha-do-tempo{
+    margin-left: 30px;
+}
+ol{
+    display: block;
+}
+header{
+    margin: 20px;
+}
+form{
+   margin: 15px; 
+}
+label, input{
+    margin: 8px;
+}
+legend{
+    font-weight: bold;
+}
+footer{
+    font-weight: bold;
+}
+address{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
