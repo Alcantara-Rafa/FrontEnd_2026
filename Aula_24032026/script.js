@@ -32,4 +32,18 @@ function controlador(){
     }, 1000);
 }
 
+function alimentar(){
+   criatura.src = estados.comendo
+   contador = 0;
+   console.log("comeu");
+
+   if(time_click) clearInterval(time_click)
+    time_click = setTimeout(() => {
+        criatura.src = estados.alimentado  
+    time_out = setTimeout(() => {
+        criatura.src = estados.normal
+    },2000)             
+    },1000)
+}
+
 controlador()
